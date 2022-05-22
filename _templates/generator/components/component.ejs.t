@@ -3,6 +3,7 @@ to: components/<%= atomic %>/<%= h.changeCase.pascal(component_name) %>/index.ts
 ---
 
 import React from 'react';
+import s from './index.module.scss';
 
 export type <%= h.changeCase.pascal(component_name) %>Props = {
 
