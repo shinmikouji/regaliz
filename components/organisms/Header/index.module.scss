@@ -1,0 +1,26 @@
+@import 'styles/variables.scss';
+@import 'styles/functions.scss';
+@import 'styles/mixins.scss';
+@import 'styles/reset.scss';
+
+.o-header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 16px;
+  color: #fff;
+  background-color: #66bb6a;
+}
+
+.o-header__nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-weight: bold;
+
+  li:hover {
+    color: #c8e6c9;
+  }
+}

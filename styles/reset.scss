@@ -8,6 +8,12 @@
 // NOTE: Overwrite sanitize.css
 html {
   line-height: normal;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 h1,
